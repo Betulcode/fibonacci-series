@@ -1,0 +1,46 @@
+body{
+    background-image: url("bg.jpg");
+    background-size:cover;
+}
+.container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align:center;  */
+    margin-right: 150px;
+}
+
+#number{
+ 
+    width: 350px;
+    border-radius: 10px;
+    border:5px inset #ddd;
+    font-size: 20px;
+    text-align:center;
+}
+h1{    
+    letter-spacing: 2px;
+    color: white;
+}
+h2{
+  color:white;
+}
+h3 {
+    font-size: 20px;
+    color:white;
+}
+#findResult,#res,#inp{ 
+    background-color: chocolate;
+    color:black;  
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:2px outset #ddd;
+}
+.phyton_screen{
+    width: 600px;
+    height: 250px;
+}
